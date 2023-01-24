@@ -1,8 +1,8 @@
 // date for winter semester (ZS)
-const semesterStart = new Date('2022-09-26');
+//const semesterStart = new Date('2022-09-26');
 
 // date for summer semester (LS)
-//const semesterStart = new Date('2023-02-14');
+const semesterStart = new Date('2023-02-14');
 
 semesterStart.setHours(0,0,0,0);
 let now = new Date();   
