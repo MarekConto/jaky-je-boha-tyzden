@@ -1,5 +1,5 @@
 
-const semesterStart = new Date('2022-09-26');
+const semesterStart = new Date('2023-09-25');
 semesterStart.setHours(0,0,0,0);
 let now = new Date();
 now.setHours(0,0,0,0);
@@ -16,7 +16,7 @@ function init() {
         week();
     } else {
         const element = document.getElementById("week");
-        element.innerText = `See ya again on 20.09.2022!`;
+        element.innerText = `See ya again on 25.09.2023!`;
         element.style.fontSize = '3em';
     }
 }
